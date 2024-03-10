@@ -49,7 +49,7 @@ const WeatherCard = ({
         <img src={icon} className='drop-shadow-xl ' alt="weather_icon" />
         <p className='font-bold text-5xl flex justify-center items-center' >{temperature} &deg;C</p>
       </div>
-      <div className='font-bold text-center text-xl'>
+      <div className='font-bold text-center text-xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>
         {place}
       </div>
       <div className='w-full flex justify-between items-center mt-4'>
